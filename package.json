@@ -1,0 +1,44 @@
+{
+  "name": "hero-travel",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@stripe/stripe-js": "^5.6.0",
+    "bcryptjs": "^3.0.2",
+    "canvas-confetti": "^1.9.4",
+    "cloudinary": "^2.11.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.4.7",
+    "groq-sdk": "^0.15.0",
+    "lucide-react": "^1.16.0",
+    "mongodb": "^6.13.0",
+    "mongoose": "^8.10.1",
+    "next": "15.1.7",
+    "next-auth": "^4.24.11",
+    "pusher": "^5.2.0",
+    "pusher-js": "^8.4.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "resend": "^4.1.2",
+    "sonner": "^2.0.1",
+    "stripe": "^17.6.0",
+    "tailwind-merge": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/node": "^22.13.4",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.2",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3"
+  }
+}
